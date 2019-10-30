@@ -1,0 +1,21 @@
+{
+    "name": "ozilo/startupbootstrap",
+    "description": "A startup folder structure for an MVC project in php",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Ozioma",
+            "email": "dikep15@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "App\\": "app/"
+        },
+        "classmap": [
+            "app/models"
+        ]
+    },
+    "require": {}
+}
